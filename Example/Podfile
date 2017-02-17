@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MakePods_Example' do
+  pod 'MakePods', :path => '../'
+
+  target 'MakePods_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
